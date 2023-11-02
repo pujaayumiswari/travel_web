@@ -8,10 +8,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
   font-family: Inter;
+  background-image: radial-gradient(
+      at 27% 37%,
+      hsla(215, 98%, 61%, 1) 0px,
+      transparent 0%
+    ),
+    radial-gradient(at 97% 21%, rgb(162, 222, 167) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, rgb(218, 206, 214) 0px, transparent 50%),
+    radial-gradient(at 10% 29%, rgb(224, 206, 219) 0px, transparent 50%),
+    /* radial-gradient(at 97% 96%, rgb(173, 220, 212) 0px, transparent 50%), */
+    radial-gradient(at 33% 50%, rgb(190, 219, 191) 0px, transparent 50%),
+    radial-gradient(at 79% 53%, rgb(165, 195, 172) 0px, transparent 50%);
+  
 }
 
 @layer utilities {
